@@ -1,0 +1,5 @@
+parameters:
+  RABBITMQ_HOST: '%env(string:RABBITMQ_HOST)%'
+  RABBITMQ_PORT: '%env(string:RABBITMQ_PORT)%'
+  RABBITMQ_USER: '%env(string:RABBITMQ_USER)%'
+  RABBITMQ_PASSWORD: '%env(string:RABBITMQ_PASSWORD)%'

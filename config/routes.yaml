@@ -1,0 +1,9 @@
+parameters:
+  - {
+      name: 'messages',
+      class: 'RabbitMQApp\Workers\MessageWorker'
+  },
+  - {
+    name: 'logs',
+    class: 'RabbitMQApp\Workers\LogWorker'
+  }
